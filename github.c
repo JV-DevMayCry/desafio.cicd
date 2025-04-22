@@ -1,11 +1,7 @@
 #include <stdio.h>
 
 int main(){
-  int = 3;
-  int2= 6;
-  soma = int + int2;
-
-printf(soma);
+printf("Olá, github actions! \n");
 
  return 0; 
 }
