@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <assert.h>
 
-void testar(){
-  //função de teste simples
-  assert(1 == 1); //verifica se 1 é igual a 1
-  printf("Teste passou!\n");
-}
-
 int main() {
-  testar();
-  return 0;
+    int a = 5;
+    int b = 7;
+    int soma = a + b;
+
+    printf("A soma de %d e %d é %d\n", a, b, soma);
+    return 0;
 }
